@@ -1,0 +1,35 @@
+adyax_ws.get:
+  path: '/adyax_ws'
+  defaults:
+    _controller: '\Drupal\adyax_ws\Controller\AdyaxController::get'
+    _title: 'View node'
+  requirements:
+    _access: 'TRUE'
+    _method: 'GET'
+
+adyax_ws.post:
+  path: '/adyax_ws'
+  defaults:
+    _controller: '\Drupal\adyax_ws\Controller\AdyaxController::post'
+    _title: 'Add node'
+  requirements:
+    _access: 'TRUE'
+    _method: 'POST'
+
+adyax_ws.put:
+  path: '/adyax_ws'
+  defaults:
+    _controller: '\Drupal\adyax_ws\Controller\AdyaxController::put'
+    _title: 'Update node'
+  requirements:
+    _access: 'TRUE'
+    _method: 'PUT'
+
+adyax_ws.delete:
+  path: '/adyax_ws'
+  defaults:
+    _controller: '\Drupal\adyax_ws\Controller\AdyaxController::delete'
+    _title: 'Delete node'
+  requirements:
+    _access: 'TRUE'
+    _method: 'DELETE'
