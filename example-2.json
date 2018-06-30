@@ -1,0 +1,15 @@
+{
+    "displayRecords": 25,
+    "vin": "WERT1234567890123",
+    "makeAndModel": "Ford Mustang",
+    "riskFactorNumber": 7,
+    "odometerReadingsCount": 20,
+    "inspectionRecordsCount": 3,
+    "serviceAndRepairRecordsCount": 2,
+    "presentCountry": "se",
+    "recordsPerCountry": {
+        "es": 25,
+        "se": 1,
+        "us": 1
+    }
+}
